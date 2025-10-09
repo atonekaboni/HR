@@ -44,7 +44,7 @@ The dataset covers 1,470 employees across three departments (Research & Developm
 ## Technical Implementation
 This analysis was built using Power BI Desktop with comprehensive data modeling and interactive visualizations. The implementation leveraged advanced analytical techniques across multiple dimensions:
 
-- **Power BI:** Interactive dashboards with dynamic filtering, DAX measures (CALCULATE, FILTER, SUMX), Power Query data transformations, and data modeling with table relationships
+- **Power BI:** Interactive dashboards with dynamic filtering, DAX measures, Power Query data transformations, and data modeling with table relationships
 - **Data Analysis:** Descriptive statistics, comparative analysis across departments and demographics, trend identification for tenure patterns, and segmentation analysis for education and compensation groups
 - **Visualization:** Dynamic KPI cards, donut charts for education distribution, bar charts for department comparison, line graphs for tenure trends, and matrix tables for job satisfaction analysis
 

@@ -17,7 +17,6 @@ This repository contains the complete Human Resource Analytics Project with the 
 - **[`dataset.xlsx`](https://github.com/atonekaboni/HR/blob/main/HR_Data.xlsx)** - Complete employee dataset with demographics, job roles, and attrition records
 - **[`README.md`](README.md)** - project documentation with findings and recommendations
 
-
 ##  Executive Summary
 HR analytics reveals a 16% attrition rate (238 departures from 1,470 employees) with significant disparities across departments and demographics. Research & Development shows highest attrition (133 employees), while early-tenure employees (0-2 years) demonstrate peak turnover risk. Male attrition (151) significantly exceeds female (87), and Life Sciences graduates account for 37% of all departures. Analysis identifies actionable opportunities for targeted retention programs and compensation adjustments.
 <br>
@@ -25,40 +24,32 @@ HR analytics reveals a 16% attrition rate (238 departures from 1,470 employees) 
 <p align="center"><img src="https://github.com/user-attachments/assets/84a9d90e-8a12-4e89-addb-1e512668d6a9" alt="HR Analytics Power BI Dashboard" width="700"></p>
 
 ## Key Findings
-### Department Attrition Crisis
 
-Research & Development shows 133 attritions representing 56% of total company departures despite being one of three main departments. Sales follows with significant attrition contributions, while HR maintains relatively stable retention patterns. This concentration in R&D suggests systemic issues in career advancement, project ownership, or compensation competitiveness requiring immediate intervention.
+### Department & Gender Patterns
+Research & Development accounts for 56% of departures (133 attritions) despite being one of three departments, indicating systemic issues in career advancement and compensation. Male employees show 73% higher turnover rate (151 vs 87 female), with Laboratory Technicians, Sales Executives, and Research Scientists most affected.
 
-### Education and Career Alignment
+### Education Alignment
+Life Sciences graduates represent 37% of attritions (89 employees), followed by Medical degree holders at 27% (63 employees) and Marketing graduates at 15% (35 employees). These patterns suggest misalignment between educational background and career satisfaction within current organizational structure.
 
-Life Sciences graduates account for 37% of all attritions (89 employees), indicating potential misalignment between educational background and role expectations. Medical degree holders represent 27% of departures (63 employees), followed by Marketing graduates at 15% (35 employees). These patterns suggest field-specific retention challenges where specialized education may not translate to satisfying career paths within current organizational structure.
+### Early Career Risk
+Employees with 0-2 years tenure show highest attrition with peak departures in year 1, while those beyond 5 years exhibit significantly lower turnover probability. This highlights critical importance of effective onboarding and early-career support programs.
 
-### Early Career Vulnerability
+### Compensation Impact
+Employees earning under $5k monthly demonstrate disproportionately high attrition. Retention improves at $5k-10k range with best results above $10k. Average income of $6.5k ($65k annually) sits in high-risk zone, suggesting targeted raises could significantly improve retention.
 
-Employees with 0-2 years tenure demonstrate highest attrition rates, with peak departures occurring in year 1. This critical period represents the most vulnerable phase for retention as new hires evaluate cultural fit and career prospects. Analysis shows inverse relationship between tenure and turnover risk, with employees beyond 5 years exhibiting significantly lower departure probability, highlighting the importance of effective onboarding and early-career support.
+## Technical Implementation
+This analysis was built using Power BI Desktop with DAX calculations for attrition rates, tenure analysis, and demographic segmentation. The dashboard includes interactive filtering by department and role with dynamic KPI cards and multi-dimensional visualizations including donut charts, bar charts, line graphs, and matrix tables for job satisfaction analysis. The dataset covers 1,470 employees across three departments with 38 attributes including demographics, job roles, education levels, satisfaction metrics, and compensation details.
 
-### Compensation Structure Impact
-
-Employees earning up to $5k monthly show disproportionately high attrition rates. Retention improves in the $5k-10k bracket, with best results at $10k+ salary range. The average monthly income of $6.5k ($65k annually) sits in high-risk zone, suggesting that targeted compensation adjustments for high performers in lower brackets could significantly impact overall retention metrics.
-
-### Gender Attrition Disparity
-
-Male employees account for 151 attritions (63.4%) compared to 87 female departures (36.6%), representing 73% higher male turnover rate. Laboratory Technicians, Sales Executives, and Research Scientists show highest absolute attrition numbers across roles, suggesting both gender-specific and role-specific factors influencing departure decisions.
+## Dataset Information
+**Scope:** 1,470 employees across three departments (Research & Development, Sales, Human Resources) with 38 attributes including demographics, job roles, education levels, satisfaction metrics, compensation details, and tenure information.
 
 ## Recommendations
 
-Target early-career employees with structured onboarding programs and 90-day check-ins during first two years. Deploy immediate retention strategy for R&D department focusing on career advancement and competitive benchmarking. Conduct salary market analysis for sub-$5k employees and implement targeted raises to bridge gap toward $10k retention threshold. Create specialized development programs for Life Sciences graduates addressing the 37% attrition rate. Investigate male attrition through exit interviews to identify root causes of 73% disparity.
+Early-career mentorship and regular check-ins can reduce first-year turnover risk. Addressing R&D's 56% attrition through competitive compensation and clear advancement paths is critical. Salary adjustments for under $5k earners can improve retention in highest-risk brackets. Specialized development programs for Life Sciences graduates can reduce 37% of departures, while exit interviews can reveal causes of male attrition disparity.
 
-## Technical Implementation
-
-Power BI Desktop with DAX-based calculations for attrition rates, tenure analysis, and demographic segmentation. Interactive filtering by department and role with dynamic KPI cards and multi-dimensional visualizations. Excel source data processed through Power Query for cleansing and relationship modeling across 1,470 employees with 38 data attributes.
-
-## Limitations
-
-Dataset represents single snapshot without longitudinal tracking. No exit interview data limits causation analysis beyond correlations. External market factors and competitor actions not included. Satisfaction metrics use numeric scales without qualitative context.
+<br>
 
 ## Contact
-
 <p align="center">
   <a href="https://www.linkedin.com/in/tonekaboni/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   &nbsp;&nbsp;

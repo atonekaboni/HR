@@ -1,4 +1,8 @@
 # HR Employee Attrition Analysis
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
 This project analyzes employee attrition data using **Power BI** with comprehensive dashboards and workforce insights for strategic human resources management.
 
 ## Project Overview
@@ -31,14 +35,18 @@ Employees with 0-2 years tenure show highest attrition with peak departures in y
 ### Compensation Impact
 Employees earning under $5k monthly demonstrate disproportionately high attrition. Retention improves at $5k-10k range with best results above $10k. Average income of $6.5k ($65k annually) sits in high-risk zone, suggesting targeted raises could significantly improve retention.
 
-## Technical Implementation
-This analysis was built using Power BI Desktop with DAX calculations for attrition rates, tenure analysis, and demographic segmentation. The dashboard includes interactive filtering by department and role with dynamic KPI cards and multi-dimensional visualizations including donut charts, bar charts, line graphs, and matrix tables for job satisfaction analysis. The dataset covers 1,470 employees across three departments with 38 attributes including demographics, job roles, education levels, satisfaction metrics, and compensation details.
-
 ## Recommendations
 Early-career mentorship and regular check-ins can reduce first-year turnover risk. Addressing R&D's 56% attrition through competitive compensation and clear advancement paths is critical. Salary adjustments for under $5k earners can improve retention in highest-risk brackets. Specialized development programs for Life Sciences graduates can reduce 37% of departures, while exit interviews can reveal causes of male attrition disparity.
 
 ## Dataset Information
-**Scope:** 1,470 employees across three departments (Research & Development, Sales, Human Resources) with 38 attributes including demographics, job roles, education levels, satisfaction metrics, compensation details, and tenure information.
+The dataset covers 1,470 employees across three departments (Research & Development, Sales, Human Resources) with 38 attributes including demographics, job roles, education levels, satisfaction metrics, compensation details, and tenure information.
+
+## Technical Implementation
+This analysis was built using Power BI Desktop with comprehensive data modeling and interactive visualizations. The implementation leveraged advanced analytical techniques across multiple dimensions:
+
+- **Power BI:** Interactive dashboards with dynamic filtering, DAX measures (CALCULATE, FILTER, SUMX), Power Query data transformations, and data modeling with table relationships
+- **Data Analysis:** Descriptive statistics, comparative analysis across departments and demographics, trend identification for tenure patterns, and segmentation analysis for education and compensation groups
+- **Visualization:** Dynamic KPI cards, donut charts for education distribution, bar charts for department comparison, line graphs for tenure trends, and matrix tables for job satisfaction analysis
 
 ## Repository Structure
 This repository contains the complete Human Resource Analytics Project with the following components:

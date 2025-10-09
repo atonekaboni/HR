@@ -11,12 +11,6 @@ The HR database connects employee demographics to job roles, departments, and ed
 
 <p align="center"><img width="700" height="auto" alt="ERD" src="https://github.com/user-attachments/assets/9a1e27b5-1aed-4c36-a24d-342a3a2d58c8" />
 
-## Repository Structure
-This repository contains the complete Human Resource Analytics Project with the following components:
-- **[`HR Analytics Dashboard.pbix`](https://github.com/atonekaboni/HR/blob/main/HR%20Analytics%20Dashboard.pbix)** - Interactive Power BI dashboard with DAX measures and filtering capabilities
-- **[`dataset.xlsx`](https://github.com/atonekaboni/HR/blob/main/HR_Data.xlsx)** - Complete employee dataset with demographics, job roles, and attrition records
-- **[`README.md`](README.md)** - project documentation with findings and recommendations
-
 ##  Executive Summary
 HR analytics reveals a 16% attrition rate (238 departures from 1,470 employees) with significant disparities across departments and demographics. Research & Development shows highest attrition (133 employees), while early-tenure employees (0-2 years) demonstrate peak turnover risk. Male attrition (151) significantly exceeds female (87), and Life Sciences graduates account for 37% of all departures. Analysis identifies actionable opportunities for targeted retention programs and compensation adjustments.
 <br>
@@ -40,12 +34,17 @@ Employees earning under $5k monthly demonstrate disproportionately high attritio
 ## Technical Implementation
 This analysis was built using Power BI Desktop with DAX calculations for attrition rates, tenure analysis, and demographic segmentation. The dashboard includes interactive filtering by department and role with dynamic KPI cards and multi-dimensional visualizations including donut charts, bar charts, line graphs, and matrix tables for job satisfaction analysis. The dataset covers 1,470 employees across three departments with 38 attributes including demographics, job roles, education levels, satisfaction metrics, and compensation details.
 
+## Recommendations
+Early-career mentorship and regular check-ins can reduce first-year turnover risk. Addressing R&D's 56% attrition through competitive compensation and clear advancement paths is critical. Salary adjustments for under $5k earners can improve retention in highest-risk brackets. Specialized development programs for Life Sciences graduates can reduce 37% of departures, while exit interviews can reveal causes of male attrition disparity.
+
 ## Dataset Information
 **Scope:** 1,470 employees across three departments (Research & Development, Sales, Human Resources) with 38 attributes including demographics, job roles, education levels, satisfaction metrics, compensation details, and tenure information.
 
-## Recommendations
-
-Early-career mentorship and regular check-ins can reduce first-year turnover risk. Addressing R&D's 56% attrition through competitive compensation and clear advancement paths is critical. Salary adjustments for under $5k earners can improve retention in highest-risk brackets. Specialized development programs for Life Sciences graduates can reduce 37% of departures, while exit interviews can reveal causes of male attrition disparity.
+## Repository Structure
+This repository contains the complete Human Resource Analytics Project with the following components:
+- **[`HR Analytics Dashboard.pbix`](https://github.com/atonekaboni/HR/blob/main/HR%20Analytics%20Dashboard.pbix)** - Interactive Power BI dashboard with DAX measures and filtering capabilities
+- **[`dataset.xlsx`](https://github.com/atonekaboni/HR/blob/main/HR_Data.xlsx)** - Complete employee dataset with demographics, job roles, and attrition records
+- **[`README.md`](README.md)** - project documentation with findings and recommendations
 
 <br>
 
